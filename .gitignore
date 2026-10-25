@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+service-account*.json
+.firebaserc
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Node / Functions
+node_modules/
+functions/lib/
+
+# Flutter
+.dart_tool/
+build/
+
+# Firebase
+.firebase/
+*-debug.log
